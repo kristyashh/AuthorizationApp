@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59001B9326A20A6900138748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59001B9226A20A6800138748 /* SceneDelegate.swift */; };
+		59001B9526A20AB600138748 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59001B9426A20AB600138748 /* LoginViewController.swift */; };
+		59001B9726A20AB800138748 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59001B9626A20AB800138748 /* WelcomeViewController.swift */; };
+		599D505526A34B7700EA0F85 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D505426A34B7700EA0F85 /* User.swift */; };
+		599D505926A35D7B00EA0F85 /* InformationAboutUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D505826A35D7B00EA0F85 /* InformationAboutUserViewController.swift */; };
+		599D505B26A35DD600EA0F85 /* InterestingFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D505A26A35DD600EA0F85 /* InterestingFactsViewController.swift */; };
+		599D505D26A35DFE00EA0F85 /* FavoriteMoviesAndBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D505C26A35DFE00EA0F85 /* FavoriteMoviesAndBooksViewController.swift */; };
+		599D505F26A367F000EA0F85 /* InfoMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D505E26A367F000EA0F85 /* InfoMoreViewController.swift */; };
+		599D506126A4230900EA0F85 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D506026A4230900EA0F85 /* Person.swift */; };
 		59C64C1E269F98390044D9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C64C1D269F98390044D9E9 /* AppDelegate.swift */; };
-		59C64C20269F98390044D9E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C64C1F269F98390044D9E9 /* SceneDelegate.swift */; };
-		59C64C22269F98390044D9E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C64C21269F98390044D9E9 /* ViewController.swift */; };
 		59C64C25269F98390044D9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C64C23269F98390044D9E9 /* Main.storyboard */; };
 		59C64C27269F983C0044D9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C64C26269F983C0044D9E9 /* Assets.xcassets */; };
 		59C64C2A269F983C0044D9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C64C28269F983C0044D9E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59001B9226A20A6800138748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59001B9426A20AB600138748 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		59001B9626A20AB800138748 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		599D505426A34B7700EA0F85 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		599D505826A35D7B00EA0F85 /* InformationAboutUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutUserViewController.swift; sourceTree = "<group>"; };
+		599D505A26A35DD600EA0F85 /* InterestingFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingFactsViewController.swift; sourceTree = "<group>"; };
+		599D505C26A35DFE00EA0F85 /* FavoriteMoviesAndBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesAndBooksViewController.swift; sourceTree = "<group>"; };
+		599D505E26A367F000EA0F85 /* InfoMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMoreViewController.swift; sourceTree = "<group>"; };
+		599D506026A4230900EA0F85 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		59C64C1A269F98390044D9E9 /* AuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C64C1D269F98390044D9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59C64C1F269F98390044D9E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59C64C21269F98390044D9E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59C64C24269F98390044D9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59C64C26269F983C0044D9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C64C29269F983C0044D9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +51,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59001B9826A20AE700138748 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				59001B9426A20AB600138748 /* LoginViewController.swift */,
+				59001B9626A20AB800138748 /* WelcomeViewController.swift */,
+				599D505826A35D7B00EA0F85 /* InformationAboutUserViewController.swift */,
+				599D505A26A35DD600EA0F85 /* InterestingFactsViewController.swift */,
+				599D505C26A35DFE00EA0F85 /* FavoriteMoviesAndBooksViewController.swift */,
+				599D505E26A367F000EA0F85 /* InfoMoreViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59001B9A26A20B3B00138748 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				59C64C23269F98390044D9E9 /* Main.storyboard */,
+				59C64C28269F983C0044D9E9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		59001B9B26A20B7600138748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				599D505426A34B7700EA0F85 /* User.swift */,
+				599D506026A4230900EA0F85 /* Person.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		59001B9C26A20B9000138748 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				59C64C1D269F98390044D9E9 /* AppDelegate.swift */,
+				59001B9226A20A6800138748 /* SceneDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		59001B9D26A20BBB00138748 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59C64C2B269F983C0044D9E9 /* Info.plist */,
+				59C64C26269F983C0044D9E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		59C64C11269F98390044D9E9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +119,11 @@
 		59C64C1C269F98390044D9E9 /* AuthorizationApp */ = {
 			isa = PBXGroup;
 			children = (
-				59C64C1D269F98390044D9E9 /* AppDelegate.swift */,
-				59C64C1F269F98390044D9E9 /* SceneDelegate.swift */,
-				59C64C21269F98390044D9E9 /* ViewController.swift */,
-				59C64C23269F98390044D9E9 /* Main.storyboard */,
-				59C64C26269F983C0044D9E9 /* Assets.xcassets */,
-				59C64C28269F983C0044D9E9 /* LaunchScreen.storyboard */,
-				59C64C2B269F983C0044D9E9 /* Info.plist */,
+				59001B9B26A20B7600138748 /* Models */,
+				59001B9826A20AE700138748 /* ViewControllers */,
+				59001B9C26A20B9000138748 /* SupportFiles */,
+				59001B9A26A20B3B00138748 /* Storyboards */,
+				59001B9D26A20BBB00138748 /* Resources */,
 			);
 			path = AuthorizationApp;
 			sourceTree = "<group>";
@@ -137,9 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C64C22269F98390044D9E9 /* ViewController.swift in Sources */,
+				599D506126A4230900EA0F85 /* Person.swift in Sources */,
+				599D505D26A35DFE00EA0F85 /* FavoriteMoviesAndBooksViewController.swift in Sources */,
+				599D505526A34B7700EA0F85 /* User.swift in Sources */,
+				599D505F26A367F000EA0F85 /* InfoMoreViewController.swift in Sources */,
+				59001B9526A20AB600138748 /* LoginViewController.swift in Sources */,
+				59001B9726A20AB800138748 /* WelcomeViewController.swift in Sources */,
+				599D505B26A35DD600EA0F85 /* InterestingFactsViewController.swift in Sources */,
 				59C64C1E269F98390044D9E9 /* AppDelegate.swift in Sources */,
-				59C64C20269F98390044D9E9 /* SceneDelegate.swift in Sources */,
+				599D505926A35D7B00EA0F85 /* InformationAboutUserViewController.swift in Sources */,
+				59001B9326A20A6900138748 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M93KRHY5S;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AuthorizationApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kris.AuthorizationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M93KRHY5S;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AuthorizationApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kris.AuthorizationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

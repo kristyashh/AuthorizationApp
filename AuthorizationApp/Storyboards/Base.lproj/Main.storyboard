@@ -144,7 +144,7 @@
             </objects>
             <point key="canvasLocation" x="1564" y="-265"/>
         </scene>
-        <!--UserName-->
+        <!--Info More View Controller-->
         <scene sceneID="Q9I-Oa-pwX">
             <objects>
                 <viewController id="rWe-vT-i0P" customClass="InfoMoreViewController" customModule="AuthorizationApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -168,7 +168,7 @@
                             <constraint firstItem="CZm-5R-zzk" firstAttribute="centerY" secondItem="L27-1X-3A2" secondAttribute="centerY" id="ifE-Hv-Sn2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="UserName" id="G6R-dr-Ybc"/>
+                    <navigationItem key="navigationItem" id="G6R-dr-Ybc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GeQ-7b-Hj8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

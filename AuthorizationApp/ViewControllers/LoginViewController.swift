@@ -17,7 +17,8 @@ class LoginViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabbar = segue.destination as? UITabBarController,
               let welcomeVC = tabbar.viewControllers?.first as? WelcomeViewController,
-              let moreInfo = (tabbar.viewControllers?.last as? UINavigationController)?.viewControllers.last as? InfoMoreViewController
+              let navavigationController = tabbar.viewControllers?.last as? UINavigationController,
+              let moreInfo = navavigationController.viewControllers.last as? InfoMoreViewController
         else { return }
         welcomeVC.setUser(user: user)
         moreInfo.setUser(user: user)
@@ -33,7 +34,7 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func forgotUserNameButtonPressed() {
-        showAlert(title: "Oops!", message: "Your name is \(user)")
+        showAlert(title: "Oops!", message: "Your name is \(user.login)")
     }
 
     @IBAction func forgotUserPasswordButtonPressed() {
